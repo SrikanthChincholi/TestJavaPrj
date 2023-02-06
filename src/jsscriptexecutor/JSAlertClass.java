@@ -49,6 +49,7 @@ public class JSAlertClass {
 		WebElement search = d.findElement(By.xpath("//button[text()='Search']"));
 
 		js.executeScript("arguments[0].click();", search);
+		
 
 	}
 }
